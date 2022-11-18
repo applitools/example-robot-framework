@@ -11,7 +11,7 @@ Test Teardown     Teardown
 *** Keywords ***
 # For setup, load the demo site's login page and open Eyes to start visual testing.
 Setup
-    Open Browser    https://demo.applitools.com    Chrome
+    Open Browser    https://demo.applitools.com    headlesschrome
     Eyes Open
 
 # For teardown, close Eyes and the browser.
