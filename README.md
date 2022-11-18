@@ -30,14 +30,14 @@ To install dependencies, run:
 pip install -r requirements.txt
 ```
 
-The main test case spec is ???.
+The main test case spec is [`acme_bank.robot`](acme_bank.robot).
 
 To execute tests, set the `APPLITOOLS_API_KEY` environment variable
 to your [account's API key](https://applitools.com/tutorials/guides/getting-started/registering-an-account),
 and then run:
 
 ```
-???
+robot acme_bank.robot
 ```
 
 **For full instructions on running this project, take our
