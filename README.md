@@ -8,8 +8,8 @@ using [Robot Framework](https://robotframework.org/).
 
 It uses:
 
-* [Python](https://www.python.org/) as the programming language platform
 * [Robot Framework](https://robotframework.org/) as the core test framework
+* [Python](https://www.python.org/) as the programming platform underneath Robot Framework
 * [Selenium WebDriver](https://www.selenium.dev/) for browser automation underneath Robot Framework
 * [Google Chrome](https://www.google.com/chrome/downloads/) as the local browser for testing
 * [pip](https://packaging.python.org/en/latest/tutorials/installing-packages/) for dependency management
