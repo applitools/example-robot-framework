@@ -22,4 +22,4 @@ Log into bank account
     Input Text        id:password    I<3VisualTests
     Click Element     id:log-in
 
-    Eyes Check Window    Main Page    Fully
+    Eyes Check Window    Main Page    Fully    Match Level    LAYOUT
