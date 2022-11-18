@@ -1,6 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
-Library     EyesLibrary       runner=web    config=applitools.yaml
+Library     EyesLibrary       runner=web_ufg    config=applitools.yaml
 
 Test Setup        Setup
 Test Teardown     Teardown
