@@ -24,7 +24,7 @@ Teardown
 # This test covers login for the Applitools demo site, which is a dummy banking app.
 # The interactions use typical Selenium WebDriver calls,
 # but the verifications use one-line snapshot calls with Applitools Eyes.
-# If the page ever changes, then Applitools will detect the changes and highlight them in the dashboard.
+# If the page ever changes, then Applitools will detect the changes and highlight them in the Eyes Test Manager.
 # Traditional assertions that scrape the page for text values are not needed here.
 Log into bank account
 
