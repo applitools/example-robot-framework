@@ -19,6 +19,8 @@ batch:
   name: "Example: Robot Framework with the Ultrafast Grid"
 
 # The name of the app under test.
+# All tests for the same app should share the same app name.
+# Set this name wisely: Applitools features rely on a shared app name across tests.
 app_name: ACME Bank Web App
 
 # Applitools can run checkpoints for snapshots against any browser in the Ultrafast Grid.
