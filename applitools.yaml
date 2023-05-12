@@ -16,12 +16,21 @@ propagate_eyes_test_results: true
 # A batch is the collection of visual checkpoints for a test suite.
 # Batches are displayed in the Eyes Test Manager, so use meaningful names.
 batch:
-  name: "Example: Robot Framework with the Ultrafast Grid"
+  name: "Example: Robot Framework"
 
 # The name of the app under test.
 # All tests for the same app should share the same app name.
 # Set this name wisely: Applitools features rely on a shared app name across tests.
 app_name: ACME Bank Web App
+
+# Applitools can run checkpoints for snapshots taken on the local machine.
+web:
+  viewport_size:
+    width: 1024
+    height: 768
+  force_full_page_screenshot: false
+  wait_before_screenshots: 100
+  stitch_mode: CSS
 
 # Applitools can run checkpoints for snapshots against any browser in the Ultrafast Grid.
 web_ufg:
