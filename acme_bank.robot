@@ -1,5 +1,5 @@
 *** Settings ***
-# Use Selenium WebDriver and Applitools Eyes with the Ultrafast Grid.
+# Use Selenium WebDriver and Applitools Eyes.
 Library     SeleniumLibrary
 Library     EyesLibrary       runner=web_ufg    config=applitools.yaml
 
