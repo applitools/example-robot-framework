@@ -23,7 +23,7 @@ batch:
 # Set this name wisely: Applitools features rely on a shared app name across tests.
 app_name: ACME Bank Web App
 
-# Applitools can run checkpoints for snapshots taken on the local machine.
+# Applitools can run checkpoints for snapshots on the local machine using the Classic runner.
 web:
   viewport_size:
     width: 1024
