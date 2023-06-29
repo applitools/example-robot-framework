@@ -26,8 +26,8 @@ app_name: ACME Bank Web App
 # Applitools can run checkpoints for snapshots on the local machine using the Classic runner.
 web:
   viewport_size:
-    width: 1024
-    height: 768
+    width: 1200
+    height: 600
   force_full_page_screenshot: false
   wait_before_screenshots: 100
   stitch_mode: CSS
