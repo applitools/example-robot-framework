@@ -132,3 +132,7 @@ dmypy.json
 log.html
 output.xml
 report.html
+
+# Generated docs site
+_site/
+.docs-venv/
